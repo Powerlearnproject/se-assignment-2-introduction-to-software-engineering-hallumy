@@ -6,13 +6,15 @@ Instructions:
 Answer the following questions based on your understanding of software engineering concepts. Provide detailed explanations and examples where appropriate.
 
 Questions:
-Define Software Engineering:
+**Define Software Engineering:
 
-What is software engineering, and how does it differ from traditional programming?
+What is software engineering, and how does it differ from traditional programming?**
+
 Software Engineering is a of computer science that uses systematic engineering principles, methods and tools to design, develop, test and maintain software applications. 
 Traditional programming is the conventional approach of writing code to create specific instructions for a computer to follow i.e it is centered around coding while software engineering is extended over the entire life cycle of the software from conception to maintenance, emphasizing a structured and methodical approach to software development.
 
-Software Development Life Cycle (SDLC):
+**Software Development Life Cycle (SDLC):
+Explain the various phases of the Software Development Life Cycle. Provide a brief description of each phase.**
 Requirements: This is basically the planning phase where information is gathered and documented as per the user needs and system requirements.
 
 Design: Analyzing the requirements and identifying the  best solutions to create the software
@@ -25,18 +27,17 @@ Deploy: Here, the software is released to the users or customers and a copy can 
 
 Maintain: Ongoing support is provided which includes fixing bugs, resolving customer issues and managing software changes. Also monitoring system performances, security and user experience and identifying new ways to improve the existing software.
 
-Explain the various phases of the Software Development Life Cycle. Provide a brief description of each phase.
-Agile vs. Waterfall Models:
+**Compare and contrast the Agile and Waterfall models of software development. What are the key differences, and in what scenarios might each be preferred?**
+
 Waterfall as a method for organizing projects is a more traditional approach to project management involving a linear flow like requirements, design, implementation while agile uses an iterative  process involving rapid actions and great flexibility.
 
 For projects with concrete timelines and well-defined deliverables, waterfall approach is suitable whereas projects that are not understood and with significant constraints like a new product being developed, agile approach is better. 
 
-Compare and contrast the Agile and Waterfall models of software development. What are the key differences, and in what scenarios might each be preferred?
-![Comparison Between Agile and Waterfall](/home/ahlam/github-classroom/Powerlearnproject/se-assignment-2-introduction-to-software-engineering-hallumy/agile vs waterfall.png)
+![Comparison Between Agile and Waterfall](agilewaterfall.png);
 
-Requirements Engineering:
+**Requirements Engineering:
 
-What is requirements engineering? Describe the process and its importance in the software development lifecycle.
+What is requirements engineering? Describe the process and its importance in the software development lifecycle.**
 
 Requirement Engineering is the process of defining, documenting and maintaining requirements in the engineering design process to meet the needs of stakeholders for a software system.
 
@@ -50,14 +51,17 @@ Software requirement specification:  This  is a document which is created by a s
 Software requirement validation: Validating whether the  requirements can be practical to implement. Techniques used include; requirement reviews/ inspection, prototyping, test-case generation, consistency analysis.
 
 We can say that requirement engineering ensures that the problem a client wants solved is clearly defined and the solutions are accurate and effective.
-Software Design Principles:
 
-Explain the concept of modularity in software design. How does it improve maintainability and scalability of software systems?
+**Software Design Principles:
+
+Explain the concept of modularity in software design. How does it improve maintainability and scalability of software systems?**
 
 Modularity in software design is the breaking down of bigger problems into smaller, more manageable parts. This helps to easily adapt, extend or replace parts of the system without affecting others.
-Testing in Software Engineering:
 
-Describe the different levels of software testing (unit testing, integration testing, system testing, acceptance testing). Why is testing crucial in software development?
+**Testing in Software Engineering:
+
+Describe the different levels of software testing (unit testing, integration testing, system testing, acceptance testing). Why is testing crucial in software development?**
+
 Unit testing: It involves testing each unit/ a block code of a system application to validate that each unit of the software works as intended and meets the requirement, normally done by the developer himself. It is the first test to done before the code is integrated and tested as a whole system.
 
 Integration testing: This is a software testing technique that focuses on verifying the interactions and data exchange between different modules of a software application with the aim of identifying any problems or bugs that arise when different components are combined and interact with each other.
@@ -66,48 +70,43 @@ System testing:  The complete system is tested to ensure it meets the specified 
 
 Acceptance testing: This is where a system is tested to check whether it is acceptable. The main aim is to evaluate the compliance of the system with the business requirements and assess whether it is acceptable for delivery or not.
 
-Version Control Systems:
+**Version Control Systems:
 
-What are version control systems, and why are they important in software development? Give examples of popular version control systems and their features.
+What are version control systems, and why are they important in software development? Give examples of popular version control systems and their features.**
+
 Version control systems: This is a software tool that helps recording changes made to files by keeping a track of modification done in the code.
 Version control also helps developers move faster and allows software teams to preserve efficiency and agility as the team scales to include more developers.
 
 Examples of version control systems are Git and its features include:
-Tracks history.
-Free and open source.
-Supports non-linear development.
-Creates backups.
-Scalable.
-Supports collaboration.
-Branching is easier.
-Distributed development.
+Tracks history, free and open source, supports non-linear development, creates back ups, scalable, supports collaboration
  
-Software Project Management:
+**Software Project Management:
 
-Discuss the role of a software project manager. What are some key responsibilities and challenges faced in managing software projects?
-oftware project managers serve as liaisons between the development team and the other stakeholders in a software project. They may be responsible for communicating project status, managing changes and requesting additional resources to help complete the project.
+Discuss the role of a software project manager. What are some key responsibilities and challenges faced in managing software projects?**
+
+Software project managers serve as liaisons between the development team and the other stakeholders in a software project. They may be responsible for communicating project status, managing changes and requesting additional resources to help complete the project.
 
 Responsibilities
 
     • Discussing new projects and proposals with clients, colleagues and other stakeholders
-    • 
+    
     • Planning software projects, determining scope and setting deadlines
-    • 
+    
     • Assembling project teams and allocating roles
-    • 
+    
     • Managing project progress to ensure projects stay on schedule
-    • 
+    
     • Creating project budgets and monitoring project spend
-    • 
+    
     • Overseeing the testing, assessment and evaluation of project quality throughout the project
     • tracking milestones and KPIs
-    • 
+    
     • Liaising with team members and providing updates on project progress
-    • 
+    
     • Organising and leading team meetings
-    • 
+     
     • Testing final products and ensuring quality is high
-    • 
+     
     • Identifying bugs and issues and organising fixes
 
 Challenges
@@ -124,9 +123,10 @@ Scope creep: It is easy for projects to get out of control as stakeholders reque
 
 Project management software: Finding the best and appropriate software for the team members may be  a challenge .
 Poor planning and unrealistic deadlines : One of the most significant errors a project manager can make is setting unrealistic deadlines. Project managers set unrealistic deadlines for several reasons, but the most common reasons for doing so are; Over optimistic , Pressure from stakeholders, Poor estimation skills.
-Software Maintenance:
+**Software Maintenance:
 
-Define software maintenance and explain the different types of maintenance activities. Why is maintenance an essential part of the software lifecycle?
+Define software maintenance and explain the different types of maintenance activities. Why is maintenance an essential part of the software lifecycle?**
+
 Software maintenance: It is the process of changing, modifying, and updating software to keep up with customer needs. Creating a new piece of software and launching it into the world is an exciting step for any company. A lot goes into creating your software and its launch including the actual building and coding, licensing models, marketing, and more. However, any great piece of software must be able to adapt to the times. 
 This means monitoring and maintaining properly. As technology is changing at the speed of light, software must keep up with the market changes and demands and that is why maintenance is important.
 
@@ -143,10 +143,12 @@ This includes making necessary changes, upgrades, adaptations and more. Preventa
 
 Adaptive Software Maintenance
 Adaptive software maintenance has to do with the changing technologies as well as policies and rules regarding your software. These include operating system changes, cloud storage, hardware, etc. When these changes are performed, your software must adapt in order to properly meet new requirements and continue to run well. 
-Ethical Considerations in Software Engineering:
 
-What are some ethical issues that software engineers might face? How can software engineers ensure they adhere to ethical standards in their work?
-Addictive design;
+**Ethical Considerations in Software Engineering:
+
+What are some ethical issues that software engineers might face? How can software engineers ensure they adhere to ethical standards in their work?**
+
+    •Addictive design;
     • Corporate ownership of personal data;
     • Algorithmic bias;
     • Weak cyber security and personally identifiable information (PII) protection; and
