@@ -32,7 +32,7 @@ Waterfall as a method for organizing projects is a more traditional approach to 
 For projects with concrete timelines and well-defined deliverables, waterfall approach is suitable whereas projects that are not understood and with significant constraints like a new product being developed, agile approach is better. 
 
 Compare and contrast the Agile and Waterfall models of software development. What are the key differences, and in what scenarios might each be preferred?
-![Comparison Between Agile and Waterfall](https://imgur.com/a/VEek75vi)
+![Comparison Between Agile and Waterfall](/home/ahlam/github-classroom/Powerlearnproject/se-assignment-2-introduction-to-software-engineering-hallumy/agile vs waterfall.png)
 
 Requirements Engineering:
 
